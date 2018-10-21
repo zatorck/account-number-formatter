@@ -17,7 +17,7 @@ if ($_GET['number'] != null) {
  */
 function formatNumber($number)
 {
-    $newNumber = ''
+    $newNumber = '';s
      $parts = array(0 => 2, 2 => 4, 6 => 4, 10 => 4, 14 => 4, 18 => 4, 22 => 4);
      foreach ($parts as $key => $val) {
          $newNumber .= substr($number, $key, $val).' ';
