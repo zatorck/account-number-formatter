@@ -8,7 +8,7 @@
 if ($_GET['number'] != null) {
 
     echo 'Reformatted Number: ';
-    echo formatNumber();
+    echo formatNumber($_GET['number']);
 }
 /**
  * @param $number
